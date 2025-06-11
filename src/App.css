@@ -82,7 +82,9 @@ a {text-decoration: none!important;}
 .u-title-prin-m{font-size:40px;color: #F6B345;}
 .u-title-secod-m{font-size:40px;color: #566573;font-weight: bold;}
 .u-content-stxt-m{font-size: 14px;}
-
+/* title and subtitle */
+.u-title-bold-white{font-size:23px;color: white;font-weight: bold;}
+.u-subtitle-bold-white{font-size:18px;color: white;font-weight: bold;}
 /*css nav principal*/
 .u-nav-h{height:50px;}
 .u-nav-b-color{
@@ -167,6 +169,36 @@ box-shadow:none!important;
 transition: color .15s 
 }
 .u-button:hover
+{
+background-color:#575656;
+color:#F6B345;
+text-decoration:none;
+transition:.2s; 
+}
+
+.u-button-black
+{
+display: inline-block;
+font-weight: 400;
+background-color:#575656;
+color:white;
+text-align: center;
+text-decoration:none;
+white-space: nowrap;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 2.5rem;
+border:none!important;
+box-shadow:none!important;
+transition: color .15s 
+}
+.u-button-black:hover
 {
 background-color:#575656;
 color:#F6B345;
