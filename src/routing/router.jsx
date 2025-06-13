@@ -6,6 +6,7 @@ import Why from "../pages/why"
 import Contact from "../pages/contact";
 import Nav from "../pages/nav/nav";
 import Footer from "../pages/footer/footer";
+import DentalImplants from "../pages/subPages/dentalImplants";
 const Router = () => {
     return(
         <BrowserRouter>
@@ -13,6 +14,7 @@ const Router = () => {
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
+                <Route path="/Implants" element={<DentalImplants/>} />
                 <Route path="/why" element={<Why/>} />
                 <Route path="/contact" element={<Contact/>} />
             </Routes>

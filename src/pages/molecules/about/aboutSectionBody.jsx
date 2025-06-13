@@ -1,4 +1,6 @@
 import facilitiesPrincipal from "../../../assets/img/facilities_01.png"
+import facilitiesTwo from "../../../assets/img/facilities_02.png"
+import facilitiesThree from "../../../assets/img/facilities_03.png"
 import Daniella from "../../atoms/daniella";
 import Karina from "../../atoms/karina";
 import Laura from "../../atoms/laura";
@@ -62,8 +64,12 @@ const AboutSectionBody = () => {
                     <div className="col-xl-12">
                         <img className="img-fluid" src={facilitiesPrincipal} />
                     </div>
-                    <div className="col-xl-6"></div>
-                    <div className="col-xl-6"></div>
+                    <div className="col-xl-6 pt-5">
+                    <img className="img-fluid" src={facilitiesTwo} />
+                    </div>
+                    <div className="col-xl-6 pt-5">
+                    <img className="img-fluid" src={facilitiesThree} />
+                    </div>
                 </div>
             </div>
             {/* end facilities unidental */}

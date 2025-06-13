@@ -28,6 +28,7 @@ a {text-decoration: none!important;}
 
 /*css box float*/
 .u-position{position:absolute!important;z-index:auto;left: 11%;top:35%;}
+.img-float{position:absolute!important;z-index:auto; left:55%;}
 /*css box float MOBILE*/
 .u-position-m{position:absolute!important;left:12%;}
 
@@ -44,11 +45,13 @@ a {text-decoration: none!important;}
 .u-list-none{list-style: none;}
 .u-text-black{color: #575656!important;}
 .u-border-roud-left{border-radius: 25px 0px 0px 25px;}
+.u-border-roud-right{border-radius: 0px 25px 25px 0px;}
 .u-border-roud-all{border-radius: 25px;}
 
 /*css font sizes*/
 .u-title-prin{font-size:75px;color: #F6B345;}
-.u-title-secod{font-size:70px;color: #566573;font-weight: bold;}
+.u-title-secod{font-size:60px;color: #566573;font-weight: bold;}
+.u-title-subTitle{font-size:30px;color: #566573;font-weight: bold;}
 .u-content-stxt{font-size: 16px;}
 
 
@@ -78,6 +81,19 @@ a {text-decoration: none!important;}
   font-optical-sizing: auto;
   font-weight:bold;
   font-style: normal;}
+
+.u-title-grid-white{
+  font-size:30px;color: white;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+.u-title-grid-black{
+  font-size:30px;color:#575656;
+  font-family: "BillionDream", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;}
+
+
 /*css font sizes MOBILE*/
 .u-title-prin-m{font-size:40px;color: #F6B345;}
 .u-title-secod-m{font-size:40px;color: #566573;font-weight: bold;}
