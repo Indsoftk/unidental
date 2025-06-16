@@ -23,7 +23,7 @@ const SectionService = () => {
                             attention and prices adjusted to your needs.</span>
                     </div>
                 </div>
-                <div className="col-xl-3">
+                <div className="col-12 col-xl-3 pt-4">
                     <motion.div initial={{scale:0}} animate={{scale:1}} transition={{duration:0.4, scale:{type:"spring",
                         visualDuration:0.9, bounce:0.5},}}>
                     <div className="col-xl-12">
@@ -31,29 +31,29 @@ const SectionService = () => {
                     </div>
                     </motion.div>
                 </div>
-                <div className="col-xl-3">
+                <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
                         <img className="img-fluid" src={cosmetic} alt="Unidental Implants" />
                     </div>
                 </div>
             </div>
-            <div className="row mx-0 pt-4">
-                <div className="col-xl-3">
+            <div className="row mx-0">
+                <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
                         <img className="img-fluid" src={restorative} alt="Unidental Implants" />
                     </div>
                 </div>
-                <div className="col-xl-3">
+                <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
                         <img className="img-fluid" src={oral} alt="Unidental Implants" />
                     </div>
                 </div>
-                <div className="col-xl-3">
+                <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
                         <img className="img-fluid" src={endodontics} alt="Unidental Implants" />
                     </div>
                 </div>
-                <div className="col-xl-3">
+                <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
                         <img className="img-fluid" src={pediatric} alt="Unidental Implants" />
                     </div>
