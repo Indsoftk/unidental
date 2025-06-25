@@ -9,7 +9,7 @@ const Footer = () => {
                             <div className="col-xl-12">
                                 <p className="u-bold mb-0">About</p>
                                 <ul className="u-list-none">
-                                    <li><a className="u-none-decoration u-text-black" href="">Team</a></li>
+                                    <li><a className="u-none-decoration u-text-black" href="/About">Team</a></li>
                                     <li><a className="u-none-decoration u-text-black" href="">Our Facilities</a></li>
                                 </ul>
                             </div>
@@ -20,8 +20,8 @@ const Footer = () => {
                             <div className="col-xl-12">
                                 <p className="u-bold mb-0">Dental Services</p>
                                 <ul className="u-list-none">
-                                    <li>Dental Implants</li>
-                                    <li>Cosmetic Dentistry</li>
+                                    <li><a href="/Implants">Dental Implants</a></li>
+                                    <li><a href="/Dentistry">Cosmetic Dentistry</a></li>
                                     <li>Restorative Dentistry</li>
                                     <li>Oral Surgery</li>
                                     <li>Ortodontics</li>

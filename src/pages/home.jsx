@@ -6,12 +6,14 @@ import SectionChoise from "./molecules/home/sectionChoise"
 import SectionTratament from "./molecules/home/sectionTratamet"
 import SectionReviews from "./molecules/home/sectionReviews"
 import SectionLocation from "./molecules/home/sectionLocation"
+import SectionSamano from "./molecules/home/sectionSamanoBanner"
 
 const Home =()=> {
     return(
         <>
             <SectionBanner/>
             <SectionService/>
+            <SectionSamano/>
             <SectionBannerTeam/>
             <SectionChoise/>
             <SectionTratament/>

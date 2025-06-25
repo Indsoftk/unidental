@@ -20,11 +20,20 @@ const SectionReviews = () => {
                     If you are already one of our patients, we welcome your comments, if you 
                     would like to place a review of our practice.</span>
             </div>
-            <div className="col-xl-12 pt-5 px-5 u-box-white mt-5">
+            {/* desktop version */}
+            <div className="col-xl-12 pt-5 px-5 u-box-white mt-5 d-none d-sm-none d-md-none d-lg-block d-xl-block">
                 <ReactGoogleReviews  
                 layout="carousel"  
                 featurableId="f32de58a-218f-4bef-ad07-6af6b52b6990" />
             </div>
+            {/* end desktop version */}
+            {/* version mobile */}
+            <div className="col-12 pt-5  u-box-white mt-5 d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                <ReactGoogleReviews  
+                layout="carousel"  
+                featurableId="f32de58a-218f-4bef-ad07-6af6b52b6990" />
+            </div>
+            {/* end version mobile */}
             </div>
         </div>
         </>

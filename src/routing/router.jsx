@@ -7,14 +7,16 @@ import Contact from "../pages/contact";
 import Nav from "../pages/nav/nav";
 import Footer from "../pages/footer/footer";
 import DentalImplants from "../pages/subPages/dentalImplants";
+import CosmeticDentistry from "../pages/subPages/cosmeticDentistry";
 const Router = () => {
     return(
         <BrowserRouter>
         <Nav/>
             <Routes>
                 <Route path="/" element={<Home/>} />
-                <Route path="/about" element={<About/>} />
+                <Route path="/About" element={<About/>} />
                 <Route path="/Implants" element={<DentalImplants/>} />
+                <Route path="/Dentistry" element={<CosmeticDentistry/>} />
                 <Route path="/why" element={<Why/>} />
                 <Route path="/contact" element={<Contact/>} />
             </Routes>

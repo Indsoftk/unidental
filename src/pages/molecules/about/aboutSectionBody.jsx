@@ -34,14 +34,14 @@ const AboutSectionBody = () => {
             </div>
             {/* team doctors */}
             <div className="container pt-3">
-                <div className="">
+                <div className="col-xl-12">
                     <span className="u-title-prin-content">Team</span>
                 </div>
-                <div className="row mx-0 pt-5">
+                <div className="row mx-0">
                     <Samano/>
                     <Karina/>
                 </div>
-                <div className="row  mx-0 pt-5">
+                <div className="row  mx-0">
                     <Laura/>
                     <Daniella/>
                 </div>

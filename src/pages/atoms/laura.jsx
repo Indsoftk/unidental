@@ -3,12 +3,12 @@ import { FaCaretRight } from "react-icons/fa6";
 const Laura = () => {
     return(
         <>
-            <div className="col-xl-6">
+            <div className="col-xl-6 pt-5">
                         <div className="col-xl-12">
                             <div className="col-xl-12">
                                 <img className='img-fluid' src={laura} alt="Dra. Laura Perez" />
                             </div>
-                            <div className="col-xl-12 u-box-yellow py-4 px-5">
+                            <div className="col-xl-12 u-box-yellow py-4 px-5 u-border-round-bottom">
                             <div className="col-xl-12">
                                 <span className="u-title-bold-white">Dra. Laura Perez Wong</span><br/>
                                 <span className='u-subtitle-bold-white'>Endodontics</span>

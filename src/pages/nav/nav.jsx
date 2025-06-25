@@ -28,8 +28,8 @@ const Nav = () => {
                                 <li><Link to="/about" >About</Link></li>
                                 <li><span >Dental Service <FaChevronDown /></span>
                                     <ul class="submenu m-ul">
-                                        <li><a href="/Implants">Dental Implants</a></li>
-                                        <li><a href="https://unidental.com.mx/content/Smile_Makeover">Cosmetic Dentistry</a></li>
+                                        <li><Link to="/Implants" >Dental Implants</Link></li>
+                                        <li><a href="/Dentistry">Cosmetic Dentistry</a></li>
                                         <li><a href="https://unidental.com.mx/content/Root">Restorative Dentistry</a></li>
                                         <li><a href="https://unidental.com.mx/content/Surgery">Oral Surgery</a></li>
                                         <li><a href="https://unidental.com.mx/content/Orthodontics">Orthodontics</a></li>
