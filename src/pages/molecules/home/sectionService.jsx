@@ -12,14 +12,14 @@ const SectionService = () => {
         <>
         <div className="container mt-5">
             <div className="row mx-0">
-                <div className="col-xl-6">
-                    <div className="col-xl-12">
+                <div className="col-xl-12">
+                    <div className="col-xl-12 text-center">
                         <span className="u-title-prin-content">Featured </span>
                         <span className="u-title-prin-content-black">Services</span>
                     </div>
-                    <div className="col-xl-12">
+                    <div className="col-xl-12 text-center">
                         <span className="u-content-stxt">We offer an extraordinary quality of service with the latest 
-                            technology in the sector without giving up personalized 
+                            technology in the sector without giving up personalized<br/> 
                             attention and prices adjusted to your needs.</span>
                     </div>
                 </div>

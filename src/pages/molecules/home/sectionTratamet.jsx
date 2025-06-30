@@ -7,8 +7,8 @@ const SectionTratament = () =>{
             <div className="row mx-0">
                 <div className="col-xl-6 u-box-yellow u-border-roud-left">
                     <div className="col-xl-12 px-5 text-center">
-                        <span className="u-title-prin-content-black">Maximum quality in</span>
-                        <span className="u-title-prin-content-white"> dental treatments</span>
+                        <span className="u-title-prin-content-white">Maximum Quality in</span>
+                       <br/> <span className="u-title-prin-content-black"> Dental Treatments</span>
                     </div>
                     <div className="col-xl-12 px-3">
                         <span className="u-content-stxt pt-4 text-white">
