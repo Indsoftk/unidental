@@ -19,8 +19,6 @@ const SectionChoise = () =>{
                             to Matamoros, Mexico.<br/>
                             <FaCirclePlus className="u-color-text-yellow" /> Experts Certified Specialist Dentists.<br/>
                             <FaCirclePlus className="u-color-text-yellow" /> The best price-quality ratio you can expect.<br/>
-                            <FaCirclePlus className="u-color-text-yellow" /> US Financial options.<br/>
-                            <FaCirclePlus className="u-color-text-yellow" /> Most US Dental insurance accepted.<br/>
                             <FaCirclePlus className="u-color-text-yellow" /> We have the best equipment and we do all the 
                             treatments in one place.<br/>
                             <FaCirclePlus className="u-color-text-yellow" /> Same day Porcelain Crowns (by request).<br/>

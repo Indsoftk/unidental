@@ -1,11 +1,13 @@
 'use client';
-import {motion} from "motion/react"
+// import {motion} from "motion/react"
 import dentalImplants from "../../../assets/img/home_01.png"
 import cosmetic from "../../../assets/img/home_02.png"
 import restorative from "../../../assets/img/home_03.png"
 import oral from "../../../assets/img/home_04.png"
 import endodontics from "../../../assets/img/home_05.png"
 import pediatric from "../../../assets/img/home_06.png"
+import clear from "../../../assets/img/home_07.png"
+import ortho from "../../../assets/img/home_08.png"
 
 const SectionService = () => {
     return(
@@ -36,11 +38,21 @@ const SectionService = () => {
                         <img className="img-fluid" src={cosmetic} alt="Unidental Implants" />
                     </div>
                 </div>
+                <div className="col-12 col-xl-3 pt-4">
+                    <div className="col-xl-12">
+                        <img className="img-fluid" src={restorative} alt="Unidental Implants" />
+                    </div>
+                </div>
+                <div className="col-12 col-xl-3 pt-4">
+                    <div className="col-xl-12">
+                        <img className="img-fluid" src={endodontics} alt="Unidental Implants" />
+                    </div>
+                </div>
             </div>
             <div className="row mx-0">
                 <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
-                        <img className="img-fluid" src={restorative} alt="Unidental Implants" />
+                        <img className="img-fluid" src={clear} alt="Unidental Implants" />
                     </div>
                 </div>
                 <div className="col-12 col-xl-3 pt-4">
@@ -50,7 +62,7 @@ const SectionService = () => {
                 </div>
                 <div className="col-12 col-xl-3 pt-4">
                     <div className="col-xl-12">
-                        <img className="img-fluid" src={endodontics} alt="Unidental Implants" />
+                        <img className="img-fluid" src={ortho} alt="Unidental Implants" />
                     </div>
                 </div>
                 <div className="col-12 col-xl-3 pt-4">
